@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <div class="topnav">
+    <a class="active" href="#home">Home</a>
+    <a href="#partners">Our Partners</a>
+    <a href="#organization">About the Organization</a>
+    <a href="#join">Join Us!</a>
+  </div>
+  <div class="container">
+    <img src={{bg}} alt="City" style="width:100%; height: 400px;"> <!--Image Interpolation-->
+    <div class="overlay">
+      <div class="centered">
+      <h1>{{Intro1}}</h1> <!--String Interpolation-->
+      <h2>{{Intro2}}</h2> <!--String Interpolation-->
+    </div>
+    <button type="button" class="btn btn-outline-dark">Early Bird Registration</button>
+    </div>
+    <div class="border">
+    </div>
+  </div>
+  <hr>
+
+  <!--One Way Binding-->
+  <h1 class="Join" >{{join}}</h1>
+
+  <table>
+    <tr>
+      <td>
+        <div class="collection">
+          <div class="clmn">
+            <div class="place">
+              <!--Image Interpolation-->
+              <img src="{{place1}}">
+            <div class="desc">
+              <h3 class="card-title text-start" style="border: 0px;">{{pname1}}</h3>
+              <p>The largest country in Western Europe, has long been a gateway between the continent's
+                nothern and souther regions.
+              </p>
+            </div>
+            <div class="card">
+              <p> Architecture and Fine Arts</p>
+            </div>
+            <div class="card">
+              <p> Cultural Events</p>
+            </div>
+            <div class="card">
+              <p> Safety and Security</p>
+            </div>
+            <div class="card">
+              <!--Style Binding-->
+              <a href="#"><p [style.color]="links">Learn More</p></a>
+            </div>
+          </div>
+
+          </div>
+        </div>
+      </td>
+      <td>
+        <div class="collection">
+          <div class="clmn">
+            <div class="place">
+              <!--Image Interpolation-->
+              <img src="{{place2}}">
+            <div class="desc">
+              <h3 class="card-title text-start" style="border: 0px;">{{pname2}}</h3>
+              <p>Korean Sôul, formally
+                Sôul-t'ûkpyôlsi ("Special City of Seoul"), city and capital
+                of South Korea (the Republic of Korea).
+              </p>
+            </div>
+            <div class="card">
+              <p> Humanities and Arts</p>
+            </div>
+            <div class="card">
+              <p> Cultural Events</p>
+            </div>
+            <div class="card">
+              <p> Safety and Security</p>
+            </div>
+            <div class="card">
+              <!--Image Binding-->
+              <a href="#"><p [style.color]="links">Learn More</p></a>
+            </div>
+          </div>
+          </div>
+        </div>
+      </td>
+      <td>
+        <div class="collection">
+          <div class="clmn">
+            <div class="place">
+              <img src="{{place3}}">
+            <div class="desc">
+              <h3 class="card-title text-start" style="border: 0px;">{{pname3}}</h3>
+              <p>It is a cultural and financial centre of the western United States and one of the
+                country's most cosmopolitan cities.
+              </p>
+            </div>
+            <div class="card">
+              <p> Science and Technology</p>
+            </div>
+            <div class="card">
+              <p> Cultural Events</p>
+            </div>
+            <div class="card">
+              <p> Safety and Security</p>
+            </div>
+            <div class="card">
+              <a href="#"><p [style.color]="links">Learn More</p></a>
+            </div>
+          </div>
+
+          </div>
+        </div>
+      </td>
+      <td>
+        <div class="collection">
+          <div class="clmn">
+            <div class="place">
+              <img src="{{place4}}">
+            <div class="desc">
+              <h3 class="card-title text-start" style="border: 0px;">{{pname4}}</h3>
+              <p>Best known for its famous baked beans, Fenway Park, The Boston Marathon
+                , and of course for the bar from Cheers.
+              </p>
+            </div>
+            <div class="card">
+              <p> Engineering Tech</p>
+            </div>
+            <div class="card">
+              <p> Cultural Events</p>
+            </div>
+            <div class="card">
+              <p> Safety and Security</p>
+            </div>
+            <div class="card">
+              <a href="#"><p [style.color]="links">Learn More</p></a>
+            </div>
+          </div>
+          </div>
+        </div>
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>

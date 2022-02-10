@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<!--ngIf Directives with One Way data Binding-->
+<h1 *ngIf="true" class="Partner" >{{intro}}</h1>
+<table>
+  <tr>
+    <th>{{header1}}</th>
+    <th>{{header2}}</th>
+    <th>{{header3}}</th>
+    <th>{{header4}}</th>
+  </tr>
+  <!--ngFor Directive-->
+  <tr *ngFor="let x of partners">
+      <th>
+        {{x.compname}}
+      </th>
+      <td>
+        <img class="logos"id="icon" [src]="x.logo"/>
+      </td>
+      <td>
+        {{x.type}}
+      </td>
+      <td>
+        <a [href]="x.link"> View Website </a>
+      </td>
+  </tr>
+
+</table>
+</body>
+</html>

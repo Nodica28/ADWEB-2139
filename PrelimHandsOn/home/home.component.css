@@ -1,0 +1,83 @@
+.topnav {
+  overflow: hidden;
+}
+
+p,h1,h2,h3,h4{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.topnav a {
+  float: left;
+  color: #8d8d8d;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  color: black;
+}
+
+.topnav a.active {
+  color: rgb(0, 0, 0);
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+}
+.border{
+    padding: 170px 620px;
+    display: block;
+    border:2px solid white;
+    position: absolute;
+    margin-top: -28.5%;
+    margin-left: 50px;
+    z-index: 1;
+    border-radius: 5px;
+    background: linear-gradient(315deg, #f8f9d2 0%, #e8dbfc 74%);
+    opacity: 0.3;
+}
+button{
+  padding: 10px 10px;
+  position: absolute;
+  margin-top: -150px;
+  display: flex;
+  border-radius: 5px;
+  margin-left: 40%;
+  font-size: 20px;
+  color: black;
+  font-weight: 300px;
+  background-color: transparent;
+}
+.Join{
+  text-align: center;
+}
+.clmn{
+  width: 300px;
+}
+.place img{
+  margin-right: auto;
+  margin-left: 5%;
+  width: 276px;
+  height: 200px;
+}
+.card, .desc{
+  border: 1px solid black;
+}
+
+.card p, .desc h3, .desc p{
+  margin-left: 8px;
+}
+table{
+  margin-left: 4%;
+}

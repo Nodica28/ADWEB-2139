@@ -1,0 +1,18 @@
+p,h1,h2,h3,h4,td,th{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.Partner{
+  text-align: center;
+}
+th,td{
+  width: 25%;
+  border: 1px solid black;
+}
+table{
+  width: 90%;
+  margin-left: 4%;
+}
+td img{
+  height: 100px;
+  width: 100px;
+}
