@@ -1,0 +1,11 @@
+*{
+  font-family: poppins;
+}
+
+table {
+  border: 1px solid black;
+}
+
+th, td {
+  border: 1px solid black;
+}
