@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<header>
+  <div class="topnav">
+    <img src="{{logo}}" alt="Logo"> <!--Image Binding-->
+    <a class="active" href="#HOME">HOME</a>
+    <a href="#APPDEV">APPDEV</a>
+    <a href="#ADWEB">ADWEB</a>
+    <a href="#CLOUDCOMP">CLOUDCOMP</a>
+    <a href="#WEBFOL">WEBDEVFOL</a>
+  </div>
+</header>
+<html lang="en">
+  <div class="intro">
+    <h1>{{intro}}</h1>
+  </div>
+
+<body class="container">
+  <!--SUBJECT 1-->
+<div class="background">
+<br><br>
+<h2 style="text-align: center;">APPDEV</h2>
+<div class="sub1">
+    <!--INPUT-->
+        <p>Enter Student Name:</p>
+        <input type="text" [(ngModel)]="student_name1" class="form-control" placeholder="Last Name, First Name M.I."/>
+        <p>Enter Student Number:</p>
+        <input type="number" [(ngModel)]="student_num1" class="form-control" placeholder="Student Number"/>
+        <p>Enter Prelim Grade:</p>
+        <input type="number" [(ngModel)]="prelim_grade1" class="form-control" placeholder="Prelim Grade" />
+        <p>Enter Midterm Grade:</p>
+        <input type="number" [(ngModel)]="midterm_grade1" class="form-control" placeholder="Midterm Grade" />
+        <p>Enter Final Grade:</p>
+        <input type="number" [(ngModel)]="final_grade1" class="form-control" placeholder="Final Grade" />
+    <!--RESULT-->
+    <br>
+    <h3 style="text-align: center;">Student Information</h3>
+    <table>
+      <tr>
+        <td><p>Student Name : </p></td>
+        <td><p>{{student_name1}}</p></td>
+      </tr>
+      <tr>
+        <td><p>Student Number : </p></td>
+        <td><p>{{student_num1}}</p></td>
+      </tr>
+      <tr>
+        <td><p>Prelim Grade : </p></td>
+        <td><p>{{prelim_grade1}}</p></td>
+      </tr>
+      <tr>
+        <td><p>Midterm Grade : </p></td>
+        <td><p>{{midterm_grade1}}</p></td>
+      </tr>
+      <tr>
+        <td><p>Final Grade : </p></td>
+        <td><p>{{final_grade1}}</p></td>
+      </tr>
+      <tr>
+        <td><p>Computed Average for AppDev : </p></td>
+        <td><p>{{(prelim_grade1 + midterm_grade1 + final_grade1) / 3}}</p></td>
+      </tr>
+    </table>
+</div>
+</div>
+<br><br>
+ <!--SUBJECT 2-->
+ <div class="background">
+  <br><br>
+  <h2 style="text-align: center;">ADWEB</h2>
+  <div class="sub2">
+      <!--INPUT-->
+          <p>Enter Student Name:</p>
+          <input type="text" [(ngModel)]="student_name2" class="form-control" placeholder="Last Name, First Name M.I."/>
+          <p>Enter Student Number:</p>
+          <input type="number" [(ngModel)]="student_num2" class="form-control" placeholder="Student Number"/>
+          <p>Enter Prelim Grade:</p>
+          <input type="number" [(ngModel)]="prelim_grade2" class="form-control" placeholder="Prelim Grade" />
+          <p>Enter Midterm Grade:</p>
+          <input type="number" [(ngModel)]="midterm_grade2" class="form-control" placeholder="Midterm Grade" />
+          <p>Enter Final Grade:</p>
+          <input type="number" [(ngModel)]="final_grade2" class="form-control" placeholder="Final Grade" />
+      <!--RESULT-->
+      <br>
+      <h3 style="text-align: center;">Student Information</h3>
+      <table>
+        <tr>
+          <td><p>Student Name : </p></td>
+          <td><p>{{student_name2}}</p></td>
+        </tr>
+        <tr>
+          <td><p>Student Number : </p></td>
+          <td><p>{{student_num2}}</p></td>
+        </tr>
+        <tr>
+          <td><p>Prelim Grade : </p></td>
+          <td><p>{{prelim_grade2}}</p></td>
+        </tr>
+        <tr>
+          <td><p>Midterm Grade : </p></td>
+          <td><p>{{midterm_grade2}}</p></td>
+        </tr>
+        <tr>
+          <td><p>Final Grade : </p></td>
+          <td><p>{{final_grade2}}</p></td>
+        </tr>
+        <tr>
+          <td><p>Computed Average for AppDev : </p></td>
+          <td><p>{{(prelim_grade2 + midterm_grade2 + final_grade2) / 3}}</p></td>
+        </tr>
+      </table>
+  </div>
+</div>
+  <br><br>
+ <!--SUBJECT 3-->
+ <div class="background">
+  <br><br>
+  <h2 style="text-align: center;">CLOUDCOMP</h2>
+  <div class="sub3">
+      <!--INPUT-->
+          <p>Enter Student Name:</p>
+          <input type="text" [(ngModel)]="student_name3" class="form-control" placeholder="Last Name, First Name M.I."/>
+          <p>Enter Student Number:</p>
+          <input type="number" [(ngModel)]="student_num3" class="form-control" placeholder="Student Number"/>
+          <p>Enter Prelim Grade:</p>
+          <input type="number" [(ngModel)]="prelim_grade3" class="form-control" placeholder="Prelim Grade" />
+          <p>Enter Midterm Grade:</p>
+          <input type="number" [(ngModel)]="midterm_grade3" class="form-control" placeholder="Midterm Grade" />
+          <p>Enter Final Grade:</p>
+          <input type="number" [(ngModel)]="final_grade3" class="form-control" placeholder="Final Grade" />
+      <!--RESULT-->
+      <br>
+      <h3 style="text-align: center;">Student Information</h3>
+      <table>
+        <tr>
+          <td><p>Student Name : </p></td>
+          <td><p>{{student_name3}}</p></td>
+        </tr>
+        <tr>
+          <td><p>Student Number : </p></td>
+          <td><p>{{student_num3}}</p></td>
+        </tr>
+        <tr>
+          <td><p>Prelim Grade : </p></td>
+          <td><p>{{prelim_grade3}}</p></td>
+        </tr>
+        <tr>
+          <td><p>Midterm Grade : </p></td>
+          <td><p>{{midterm_grade3}}</p></td>
+        </tr>
+        <tr>
+          <td><p>Final Grade : </p></td>
+          <td><p>{{final_grade3}}</p></td>
+        </tr>
+        <tr>
+          <td><p>Computed Average for AppDev : </p></td>
+          <td><p>{{(prelim_grade3 + midterm_grade3 + final_grade3) / 3}}</p></td>
+        </tr>
+      </table>
+  </div>
+</div>
+  <br><br>
+ <!--SUBJECT 4-->
+ <div class="background">
+  <br><br>
+  <h2 style="text-align: center;">WEBDEVFOL</h2>
+  <div class="sub4">
+      <!--INPUT-->
+          <p>Enter Student Name:</p>
+          <input type="text" [(ngModel)]="student_name4" class="form-control" placeholder="Last Name, First Name M.I."/>
+          <p>Enter Student Number:</p>
+          <input type="number" [(ngModel)]="student_num4" class="form-control" placeholder="Student Number"/>
+          <p>Enter Prelim Grade:</p>
+          <input type="number" [(ngModel)]="prelim_grade4" class="form-control" placeholder="Prelim Grade" />
+          <p>Enter Midterm Grade:</p>
+          <input type="number" [(ngModel)]="midterm_grade4" class="form-control" placeholder="Midterm Grade" />
+          <p>Enter Final Grade:</p>
+          <input type="number" [(ngModel)]="final_grade4" class="form-control" placeholder="Final Grade" />
+      <!--RESULT-->
+      <br>
+      <h3 style="text-align: center;">Student Information</h3>
+      <table>
+        <tr>
+          <td><p>Student Name : </p></td>
+          <td><p>{{student_name4}}</p></td>
+        </tr>
+        <tr>
+          <td><p>Student Number : </p></td>
+          <td><p>{{student_num4}}</p></td>
+        </tr>
+        <tr>
+          <td><p>Prelim Grade : </p></td>
+          <td><p>{{prelim_grade4}}</p></td>
+        </tr>
+        <tr>
+          <td><p>Midterm Grade : </p></td>
+          <td><p>{{midterm_grade4}}</p></td>
+        </tr>
+        <tr>
+          <td><p>Final Grade : </p></td>
+          <td><p>{{final_grade4}}</p></td>
+        </tr>
+        <tr>
+          <td><p>Computed Average for AppDev : </p></td>
+          <td><p>{{(prelim_grade4 + midterm_grade4 + final_grade4) / 3}}</p></td>
+        </tr>
+      </table>
+  </div>
+</div>
+  <br><br>
+</body>
+</html>
