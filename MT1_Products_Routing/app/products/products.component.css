@@ -1,0 +1,79 @@
+
+.text-top ,.Intro{
+	font-family: 'Montserrat', sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.PageBody h5{
+	padding: 50px;
+	margin-bottom: -80px;
+	font-size: 30px;
+}
+.Intro{
+	font-size: 17px;
+	margin-top: 10px;
+}
+table img{
+	width: 90%;
+	margin-top: 25px;
+	margin-left: 20px;
+	border-radius: 15px;
+
+}
+table h3{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 17px;
+	text-align: center;
+	line-height: 40%;
+}
+table h4{
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	line-height: 40%;
+}
+.Home p{
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+	font-size: 15px;
+	margin-top: 50px;
+}
+.rectangle{
+	height: 525px;
+	background-color: #1b1b1b;
+	padding-top:3%;
+	margin-top: 50px;
+}
+.rectangle p{
+	font-family: 'Montserrat', sans-serif;
+	text-align: left;
+	color: white;
+	margin-left: 50px;
+	font-weight: bold;
+  cursor: pointer;
+}
+.left{
+	margin-top: -280px;
+}
+
+.left p{
+	font-family: 'Montserrat', sans-serif;
+	text-align: right;
+	color: white;
+	margin-right: 50px;
+	font-weight: bold;
+	cursor: pointer;
+	}
+.email{
+	margin-top: -200px;
+	text-align: center;
+}
+a:link {
+  text-decoration: none;
+}
+h3{
+	color: black;
+}
+body{
+	background-color: #ffffff;
+background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+}

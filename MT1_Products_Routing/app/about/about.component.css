@@ -1,0 +1,81 @@
+body, html {
+background-image: url("/assets/Background.jpg");
+height: 100vh;
+margin: 0;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover
+}
+.intro h1{
+margin-left: 20%;
+font-size:40px;
+color: aliceblue;
+filter: drop-shadow(5px 3px 7px rgb(0, 0, 0));
+}
+.intro h3{
+margin-left: 20%;
+margin-right: 50%;
+font-size:20px;
+color: aliceblue;
+text-align: justify;
+filter: drop-shadow(5px 3px 7px rgb(0, 0, 0));
+
+}
+.main img{
+height: 400px;
+position: absolute;
+margin-left: 50%;
+margin-top: 10%;
+
+}
+*{
+font-family: 'Montserrat', sans-serif;
+margin-top: 0;
+margin-bottom: 0;
+}
+.Home p{
+text-align: center;
+font-family: 'Poppins', sans-serif;
+font-size: 15px;
+margin-top: 50px;
+}
+.content {
+position: relative;
+
+}
+.rectangle{
+height: 525px;
+background-color: #1b1b1b;
+padding-top:3%;
+margin-top: 50px;
+}
+.rectangle p{
+font-family: 'Montserrat', sans-serif;
+text-align: left;
+color: white;
+margin-left: 50px;
+font-weight: bold;
+cursor: pointer;
+}
+.left{
+margin-top: -150px;
+}
+
+.left p{
+font-family: 'Montserrat', sans-serif;
+text-align: right;
+color: white;
+margin-right: 50px;
+font-weight: bold;
+cursor: pointer;
+}
+.email{
+margin-top: -100px;
+text-align: center;
+}
+a:link {
+text-decoration: none;
+}
+h3{
+color: black;
+}
