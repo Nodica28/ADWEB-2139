@@ -1,0 +1,13 @@
+*{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+th{
+    font-size: larger;
+    width: -20%;
+    border: 2px solid black;
+}
+td{
+    padding-top: 1%;
+    border: 2px solid black;
+}
