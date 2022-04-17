@@ -9,4 +9,5 @@
         <li class="num" style="color: white;">+639650681793</li>
     </ul>
 </nav>
-<router-outlet></router-outlet>
+<main [@routeAnimations]="prepareRoute(outlet)" class="content" >
+<router-outlet #outlet="outlet"></router-outlet>
