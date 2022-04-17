@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Feedback</title>
+</head>
+<body>
+  <p>
+    <mat-toolbar class="toolbar-title">
+      <span>User Feedback Application</span>
+    </mat-toolbar>
+  </p>
+  
+  <mat-tab-group class="tabs__container">
+    <mat-tab label="Feedback Category">
+      <mat-divider></mat-divider>
+        <section>
+          <h1 class="title">Feedback Category</h1>
+          <h4 class="example-sublabel">Select your feedback type:</h4>
+          <div class="example-button-row">
+            <button mat-flat-button>Bug</button>
+            <button mat-flat-button color="primary">Interface</button>
+            <button mat-flat-button color="accent">Improvements</button>
+            <button mat-flat-button color="warn">Virus</button>
+            <button mat-flat-button disabled>User Experience</button>
+            <a mat-flat-button href="https://mail.google.com/mail/u/0/#inbox" target="_blank">Contact us</a>
+          </div>
+        </section>  
+    </mat-tab>
+    <mat-tab label="User Experience Survey">
+      <h2 class="title">User Experience Survey</h2>
+      <mat-list role="list" class="example-section">
+        <mat-list-item role="listitem" class="list-item">
+          <mat-radio-group aria-label="Select an option"><h4>How is your overall experience?</h4>
+            <mat-radio-button value="1">Very Bad</mat-radio-button>
+            <mat-radio-button value="2">Bad</mat-radio-button>
+            <mat-radio-button value="3">Mediocre</mat-radio-button>
+            <mat-radio-button value="4">Good</mat-radio-button>
+            <mat-radio-button value="5">Excellent</mat-radio-button>
+          </mat-radio-group>
+        </mat-list-item>
+          <mat-list-item role="listitem" class="list-item">
+            <mat-radio-group aria-label="Select an option"><h4>Was the issue that urgent?</h4>
+            <mat-radio-button value="1">Yes</mat-radio-button>
+            <mat-radio-button value="2">No</mat-radio-button>
+          </mat-radio-group>
+        </mat-list-item>
+        <mat-list-item role="listitem" class="list-item">
+          <mat-radio-group aria-label="Select an option"><h4>Rate the issue from 1-5 for intensity.</h4>
+            <mat-radio-button value="1">1</mat-radio-button>
+            <mat-radio-button value="2">2</mat-radio-button>
+            <mat-radio-button value="3">3</mat-radio-button>
+            <mat-radio-button value="4">4</mat-radio-button>
+            <mat-radio-button value="5">5</mat-radio-button>
+          </mat-radio-group>
+        </mat-list-item>
+        <mat-list-item role="listitem" class="list-item">
+          <mat-radio-group aria-label="Select an option"><h4>Are you satisfied that you found out the feedback form?</h4>
+            <mat-radio-button value="1">Very Unsatisfied</mat-radio-button>
+            <mat-radio-button value="2">Unsatisfied</mat-radio-button>
+            <mat-radio-button value="3">Neutral</mat-radio-button>
+            <mat-radio-button value="4">Satisfied</mat-radio-button>
+            <mat-radio-button value="5">Very Satisfied</mat-radio-button>
+          </mat-radio-group>
+        </mat-list-item>
+      </mat-list>
+    </mat-tab>
+    <mat-tab label="Check That's Applied">
+      <section class="example-section">
+        <h2 class="title">Check That's Applied</h2>
+        <h4 class="example-check">Where did you found out about the website?</h4>
+        <mat-checkbox class="example-margin">Social Media</mat-checkbox>
+        <mat-checkbox class="example-margin">Friends</mat-checkbox>
+        <mat-checkbox class="example-margin">Newspaper</mat-checkbox>
+        <mat-checkbox class="example-margin">Web</mat-checkbox>
+        <h4 class="example-check">What devices do you own?</h4>
+        <mat-checkbox class="example-margin">Desktop</mat-checkbox>
+        <mat-checkbox class="example-margin">Mobile</mat-checkbox>
+        <mat-checkbox class="example-margin">Console</mat-checkbox>
+        <mat-checkbox class="example-margin">Laptop</mat-checkbox>
+        <h4 class="example-check">Wat browser do you use?</h4>
+        <mat-checkbox class="example-margin">Google Chrome</mat-checkbox>
+        <mat-checkbox class="example-margin">Opera</mat-checkbox>
+        <mat-checkbox class="example-margin">Safari</mat-checkbox>
+        <mat-checkbox class="example-margin">Microsoft Edge</mat-checkbox>
+      </section>  
+    </mat-tab>
+    <mat-tab label="Feedback Information">
+      <h2 class="title">Feedback Information</h2>
+      <h4 class="example-fill">Enter your name:</h4>
+      <mat-form-field appearance="fill">
+        <mat-label>Firstname</mat-label>
+        <input matInput>
+      </mat-form-field>
+      <mat-form-field appearance="fill">
+        <mat-label>Lastname</mat-label>
+        <input matInput>
+      </mat-form-field>
+      <mat-divider></mat-divider>
+      <h4 class="example-fill">Device used:</h4>
+      <mat-form-field appearance="fill" class="input-container">
+        <mat-label>Device</mat-label>
+        <mat-select>
+          <mat-option value="one">Laptop</mat-option>
+          <mat-option value="two">Computer</mat-option>
+          <mat-option value="three">Mobile</mat-option>
+          <mat-option value="four">Mac</mat-option>
+          <mat-option value="five">Console</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <mat-divider></mat-divider>
+      <h4 class="example-fill">Feedback description:</h4>
+      <mat-form-field appearance="fill" class="input-container">
+        <mat-label>Feedback</mat-label>
+        <textarea matInput></textarea>
+      </mat-form-field> 
+      <mat-divider></mat-divider>
+      <h4 class="example-fill">Enter email address:</h4>
+      <mat-form-field appearance="fill" class="input-container">
+        <mat-label>email@gmail.com</mat-label>
+        <input matInput>
+      </mat-form-field> 
+      <mat-divider></mat-divider>
+      <h4 class="example-fill">Enter location:</h4>
+      <mat-form-field appearance="fill" class="input-container">
+        <mat-label>Address</mat-label>
+        <input matInput>
+      </mat-form-field> 
+      <mat-divider></mat-divider>
+      <h4 class="example-fill">Enter date issue found:</h4>
+      <mat-form-field appearance="fill">
+        <mat-label>Choose a date:</mat-label>
+        <input matInput [matDatepicker]="picker">
+        <mat-hint>MM/DD/YYYY</mat-hint>
+        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+      </mat-form-field>      
+    </mat-tab>
+  </mat-tab-group>
+</body>
+</html>
+

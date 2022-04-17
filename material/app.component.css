@@ -1,0 +1,33 @@
+.toolbar-title{
+    background-color: lightseagreen;
+}
+.title{
+    text-align: center;
+}
+mat-tab-group{
+    align-items: center;
+}
+mat-radio-button, 
+mat-checkbox{
+    margin-left: 20px;
+}
+.example-button-row button{
+    margin-right: 10px;
+}
+.list-item,
+.example-sublabel{
+    margin-bottom: 25px;
+}
+.example-check{
+    margin-top: 30px;
+}
+.example-section{
+    height: 500px;
+}
+.input-container{
+    width: 410px;
+}
+.example-fill{
+    margin-top: 0;
+    margin-bottom: 0;
+}
